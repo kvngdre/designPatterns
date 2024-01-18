@@ -11,6 +11,8 @@ internal class Editor
         {
             if (value is not null)
                 _content = value;
+            else
+                throw new ArgumentNullException("Content");
         }
     }
 
