@@ -9,7 +9,7 @@ class Program
         editor.Content = "Kennedy";
         editor.Content = "Kalu";
 
-        editor.Undo();
+        editor.Restore();
 
         System.Console.WriteLine(editor.Content);
     }

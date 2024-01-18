@@ -2,10 +2,10 @@ namespace MementoPattern;
 
 internal class EditorState
 {
-    public readonly string State;
+    public readonly string Content;
 
     public EditorState(string state)
     {
-        State = state;
+        Content = state;
     }
 }

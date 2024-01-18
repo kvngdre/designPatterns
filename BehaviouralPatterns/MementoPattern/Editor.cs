@@ -1,27 +1,26 @@
 namespace MementoPattern;
 
-public class Editor
+internal class Editor
 {
     private string _content = "";
-    private Stack<string> _history = [];
 
     public string Content
     {
         get { return _content; }
         set
         {
-            _history.Push(value);
             if (value is not null)
                 _content = value;
         }
     }
 
-    public void Undo()
+    public EditorState CreateState()
     {
-        if (_history.Count > 1)
+        return new EditorState(_content);
+    }
 
-            _content = _history.Pop();
-        else
-            _content = "";
+    public void Restore(EditorState state)
+    {
+        _content = state.Content;
     }
 }
