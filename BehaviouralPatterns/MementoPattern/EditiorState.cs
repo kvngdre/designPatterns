@@ -1,11 +1,6 @@
 namespace MementoPattern;
 
-internal class EditorState
+internal class EditorState(string state)
 {
-    public readonly string Content;
-
-    public EditorState(string state)
-    {
-        Content = state;
-    }
+    public readonly string Content = state;
 }
