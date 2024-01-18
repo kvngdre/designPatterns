@@ -8,4 +8,9 @@ internal class History
     {
         _history.Push(editorState);
     }
+
+    public EditorState Pop()
+    {
+        return _history.Pop();
+    }
 }
