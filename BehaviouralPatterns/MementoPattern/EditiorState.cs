@@ -1,3 +1,5 @@
+namespace MementoPattern;
+
 internal class EditorState
 {
     public readonly string State;
