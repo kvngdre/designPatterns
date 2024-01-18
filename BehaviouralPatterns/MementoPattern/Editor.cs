@@ -19,6 +19,7 @@ public class Editor
     public void Undo()
     {
         if (_history.Count > 1)
+
             _content = _history.Pop();
         else
             _content = "";
