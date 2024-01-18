@@ -13,7 +13,7 @@ class Program
         editor.Content = "Kennedy";
         history.Add(editor.CreateState());
 
-        editor.Content = null;
+        editor.Content = "Kalu";
 
         System.Console.WriteLine(editor.Content);
 
