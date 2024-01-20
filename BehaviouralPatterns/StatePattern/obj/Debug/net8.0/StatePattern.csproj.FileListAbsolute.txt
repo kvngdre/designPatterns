@@ -1,0 +1,15 @@
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\bin\Debug\net8.0\StatePattern.exe
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\bin\Debug\net8.0\StatePattern.deps.json
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\bin\Debug\net8.0\StatePattern.runtimeconfig.json
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\bin\Debug\net8.0\StatePattern.dll
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\bin\Debug\net8.0\StatePattern.pdb
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.AssemblyInfoInputs.cache
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.AssemblyInfo.cs
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.csproj.CoreCompileInputs.cache
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.sourcelink.json
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.dll
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\refint\StatePattern.dll
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.pdb
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\StatePattern.genruntimeconfig.cache
+C:\Users\kenne\Desktop\workspace\dev\softwate_architecture\DesignPatterns\BehaviouralPatterns\StatePattern\obj\Debug\net8.0\ref\StatePattern.dll
