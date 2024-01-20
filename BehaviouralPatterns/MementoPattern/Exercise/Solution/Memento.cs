@@ -1,0 +1,1 @@
+namespace MementoPattern.Exercise.Solution;

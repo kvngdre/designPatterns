@@ -1,8 +1,18 @@
-﻿namespace MementoPattern;
+﻿
+using MementoPattern.Exercise;
+
+namespace MementoPattern;
 
 class Program
 {
     static void Main(string[] args)
+    {
+        Run();
+
+        ExerciseMain.Run();
+    }
+
+    static void Run()
     {
         var editor = new Editor();
         var history = new History();
@@ -15,12 +25,10 @@ class Program
 
         editor.Content = "Kalu";
 
-        System.Console.WriteLine(editor.Content);
+        System.Console.WriteLine("Editor content before restore(undo): " + editor.Content);
 
         editor.Restore(history.Pop());
-        System.Console.WriteLine(editor.Content);
+        System.Console.WriteLine("Editor content after 1 restore(undo): " + editor.Content);
 
-        editor.Restore(history.Pop());
-        System.Console.WriteLine(editor.Content);
     }
 }
