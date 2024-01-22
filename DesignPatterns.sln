@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "Behaviour
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "BehaviouralPatterns\StatePattern\StatePattern.csproj", "{2A2D11F4-DC41-4D8F-B19F-A64E6BCD1E5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "BehaviouralPatterns\IteratorPattern\IteratorPattern.csproj", "{09721756-140C-49E6-AB50-B973B722765D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{2A2D11F4-DC41-4D8F-B19F-A64E6BCD1E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2D11F4-DC41-4D8F-B19F-A64E6BCD1E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2D11F4-DC41-4D8F-B19F-A64E6BCD1E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09721756-140C-49E6-AB50-B973B722765D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09721756-140C-49E6-AB50-B973B722765D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09721756-140C-49E6-AB50-B973B722765D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09721756-140C-49E6-AB50-B973B722765D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DAFDB863-C88D-4850-AF5C-C875CD6345F8} = {E9F2BE61-3E77-4442-BFE4-2981F74586D1}
 		{2A2D11F4-DC41-4D8F-B19F-A64E6BCD1E5F} = {E9F2BE61-3E77-4442-BFE4-2981F74586D1}
+		{09721756-140C-49E6-AB50-B973B722765D} = {E9F2BE61-3E77-4442-BFE4-2981F74586D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BACF3086-D803-4AFA-9CF8-4C2B98D3E4F6}
