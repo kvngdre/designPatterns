@@ -17,7 +17,7 @@ class Program
         {
             var current = iterator.CurrentValue();
 
-            System.Console.WriteLine(current);
+            Console.WriteLine(current);
 
             iterator.Next();
         }
