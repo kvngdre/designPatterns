@@ -12,4 +12,4 @@ There are two actors in the template method pattern you should be aware of:
 
 - **The Sub Classes**: The subclasses extend the abstract super class and implement the primitive operation methods which would be called in the execute method of defined in the abstract class. This allows each subclass to tweak the execute method by supplying different implementations of the primitive operation. In my implementation, the sub class is the TransferMoney Class and the PrintReport class.
 
-> 💡You do not need to specify all the methods in the superclass as abstract, you can provide some default implementation for the method and they could be marked as `protected` `virtual` to allow the subclasses to decide if they would want to override these methods. These methods with default implementations in the super class are known as `Hooks`.
+> 💡There’s another type of step, called `hooks`. A hook is an optional step with an empty body. A template method would work even if a hook isn’t overridden. Usually, hooks are placed before and after crucial steps of algorithms, providing subclasses with additional extension points for an algorithm..
