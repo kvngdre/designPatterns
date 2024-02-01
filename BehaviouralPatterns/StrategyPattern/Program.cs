@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var jpegCompressor = new JpegCompressor();
+        var blackAndWhiteFilter = new BlackAndWhiteFilter();
+
+        ImageStorage imgStorage = new(jpegCompressor, blackAndWhiteFilter);
+        imgStorage.Store("new-image");
     }
 }
