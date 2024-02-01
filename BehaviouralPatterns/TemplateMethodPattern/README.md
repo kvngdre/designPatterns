@@ -4,6 +4,6 @@ This is a behavioural design pattern that defines tha skeleton of an algorithm i
 
 There are two actors in the template method pattern you should be aware of:
 
-- **The Super class**: This is an abstract class that declares an execute method for the algorithm but also calls an abstract method called _primitive operation_. The primitive operation will be implemented by the subclasses.
+- **The Super class**: This is an abstract class that declares an execute method for the algorithm but also calls an abstract method called _primitive operation_. The primitive operation will be implemented by the subclasses. In my implementation, the super class is the Task class.
 
-- **The Sub Classes**: The subclasses extend the abstract super class and implement the primitive operation methods which would be called in the execute method of defined in the abstract class. This allows each subclass to tweak the execute method by supplying different implementations of the primitive operation.
+- **The Sub Classes**: The subclasses extend the abstract super class and implement the primitive operation methods which would be called in the execute method of defined in the abstract class. This allows each subclass to tweak the execute method by supplying different implementations of the primitive operation. In my implementation, the sub class is the TransferMoney Class and the PrintReport class.
