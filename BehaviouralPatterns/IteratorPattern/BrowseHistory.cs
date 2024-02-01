@@ -1,8 +1,8 @@
-﻿namespace IteratorPattern;
+﻿namespace ITeratorPattern;
 
 public class BrowseHistory
 {
-    private List<string> _urls = [];
+    private readonly List<string> _urls = [];
 
     public void Push(string url)
     {
@@ -18,9 +18,14 @@ public class BrowseHistory
         return lastUrl;
     }
 
-    class ListIterator : Iterator<string>
+    public ITerator<string> CreateIterator()
     {
-        private BrowseHistory _history;
+        return new ListIterator(this);
+    }
+
+    class ListIterator : ITerator<string>
+    {
+        private readonly BrowseHistory _history;
         private int Index;
 
         public ListIterator(BrowseHistory history)

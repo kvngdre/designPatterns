@@ -1,6 +1,6 @@
-﻿namespace IteratorPattern;
+﻿namespace ITeratorPattern;
 
-public interface Iterator<T>
+public interface ITerator<T>
 {
     bool HasNext();
     T CurrentValue();
