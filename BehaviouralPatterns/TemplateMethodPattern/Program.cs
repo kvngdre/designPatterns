@@ -4,6 +4,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var moneyTransferTask = new TransferMoneyTask();
+        var printReportTask = new PrintReportTask();
+
+        moneyTransferTask.Execute();
+        System.Console.WriteLine("\n");
+        printReportTask.Execute();
     }
 }
