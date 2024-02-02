@@ -8,8 +8,8 @@ There are **four** actors you need to be aware of in the observer pattern:
 
 - **`The Subject`**: This is an abstract class where we handle the business of attaching, detaching, and notifying observers of changes. It exposes methods for new subscribers to join, old subscribers to join and a mechanism to notify subscribers of a particular event.
 
-- **`The Concrete Subject`**: Also known as the Publisher, is a class that extends the abstract subject class and has field(s) that the observers are interested to know about.
+- **`The Concrete Subject`**: Also known as the Publisher, is a class that extends the abstract subject class and has field(s) that the observers are interested to know about. The publisher publishes an event when there is a change in it's state or executes some behaviour.
 
-- **`The Observer`**: This is an interface or abstract class with a method for handling the action when change in the subject has been received.
+- **`The Observer`**: This is an interface or abstract class with a method for handling the action when change in the subject has been received. The method is usually called _update_ which might have other parameters about the event that occurred as passed by the publisher.
 
 - **`The Concrete Observer`**: This is a class that implements/extends the observer. The business logic for handling the event of a subject value's change is defined in the implemented method.
