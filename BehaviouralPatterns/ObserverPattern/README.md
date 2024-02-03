@@ -6,7 +6,7 @@ It’s crucial that all subscribers implement the same interface and that the pu
 
 There are **four** actors you need to be aware of in the observer pattern:
 
-- **`The Subject`**: This is an abstract class where we handle the business of attaching, detaching, and notifying observers of changes. It exposes methods for new subscribers to join, old subscribers to join and a mechanism to notify subscribers of a particular event.
+- **`The Subject`**: This is a class where we handle the business of attaching, detaching, and notifying observers of changes. It exposes methods for new subscribers to join, old subscribers to join and a mechanism to notify subscribers of a particular event.
 
 - **`The Concrete Subject`**: Also known as the Publisher, is a class that extends the abstract subject class and has field(s) that the observers are interested to know about. The publisher publishes an event when there is a change in it's state or executes some behaviour.
 
