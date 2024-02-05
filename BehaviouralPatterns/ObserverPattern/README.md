@@ -13,3 +13,5 @@ There are **four** actors you need to be aware of in the observer pattern:
 - **`The Observer`**: This is an interface or abstract class with a method for handling the action when change in the subject has been received. The method is usually called _update_ which might have other parameters about the event that occurred as passed by the publisher.
 
 - **`The Concrete Observer`**: This is a class that implements/extends the observer. The business logic for handling the event of a subject value's change is defined in the implemented method.
+
+In my implementation, the Subject class is my subject, the DataSource class is the concrete subject, the Observer interface is the observer, and the SpreadSheet and Chart classes are my concrete observers.
